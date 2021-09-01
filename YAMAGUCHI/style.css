@@ -1,0 +1,99 @@
+body{
+    font-family: 'Ubuntu', sans-serif;    
+    background-color: #F3F3F3;   
+    max-width: 1920px; 
+    max-height: 900px;    
+}
+.container{   
+    max-width: 1920px;    
+    margin: 0 auto;
+        
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;      
+}
+
+.main-text{    
+    display: block;    
+    padding: 15px; 
+    width: 500px; 
+    width: 30%; 
+}
+
+.main-text h1{
+    font-size: 38px;
+    color: rgba(11, 100, 254, 1);
+    font-weight: 700; 
+    margin-bottom: 70px; 
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+.main-text-title{
+    color: rgba(24, 24, 24, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+    word-spacing: 6px
+}
+.text_p{
+    color: rgba(24, 24, 24, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+    word-spacing: 6px    
+}
+.table{
+    width: 70%;
+}
+.table-img2{    
+    position: relative;
+    right: 200px;
+}
+.table-img1{
+    position: relative;
+    bottom: 900px;
+    right: 200px;
+}
+.button{
+    text-decoration: none;  
+    background-color:#A6FFFF;    
+    color: rgba(0, 0, 0, 1);
+    padding: 58px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 1400px;
+    left: 220px;
+    font-size: 40px;
+    margin: 0 50px;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 640px) {
+.table{
+    display: none;
+    order: 2; 
+}
+
+
+.main{
+    display: block;       
+}
+.main-text{
+    width: 100%;
+    order:1;
+}
+
+.table-img2{
+    width: 100%;
+}
+.table-img1{
+    width: 100%;
+}
+}
